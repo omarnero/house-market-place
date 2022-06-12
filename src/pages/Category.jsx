@@ -18,7 +18,6 @@ function Category() {
   const [loading, setLoading] = useState(true);
   const params = useParams();
   const [lastFetchedListing, setLastFetchedListing] = useState(null);
-  console.log(params);
   useEffect(() => {
     const fetchListings = async () => {
       try {
